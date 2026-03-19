@@ -1,0 +1,80 @@
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Composer / PHP
+vendor/
+composer.phar
+composer.lock
+
+# Environment / secrets
+.env
+.env.*.local
+.env.local
+.env.testing
+.env.production
+.htpasswd
+
+# Ignore real config files containing credentials, keep examples
+/config/*.php
+!/config/*.php.example
+!/config/*.dist.php
+!/config/*.sample.php
+/config/*.local.php
+
+# Logs, cache and temporary files
+logs/
+log/
+*.log
+cache/
+tmp/
+temp/
+storage/
+storage/*
+!storage/.gitkeep
+sessions/
+uploads/
+uploads/*
+!uploads/.gitkeep
+
+# Build / distribution
+dist/
+build/
+public/build/
+.sass-cache/
+.cache/
+
+# Database
+*.sql
+*.sqlite
+*.sqlite3
+db.sqlite
+
+# Generated/minified files
+*.min.js
+*.min.css
+
+# Misc
+Thumbs.db
+npm-debug.log
+phpunit.xml.cache
+.phpunit.result.cache
+
+#Librairie
+librairies/fpdf
+config/
