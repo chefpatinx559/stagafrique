@@ -76,5 +76,5 @@ phpunit.xml.cache
 .phpunit.result.cache
 
 #Librairie
-librairies/fpdf
+libraries/fpdf
 config/
